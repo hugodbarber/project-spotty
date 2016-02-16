@@ -7,6 +7,9 @@
     <meta name="description" content="Website">
     <meta name="author" content="Salty">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/Javascript" src="assets/js/dropdown.js"></script>
 
     <!-- Website Title -->
     <title>Spotty Test Website</title>
@@ -33,8 +36,16 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
-            <li><a href="services.html">SERVERS</a></li>
-            <li><a href="works.html">WORKS</a></li>
+            <li><a href="ts3server://ts.nerdping.com">TEAMSPEAK</a></li>
+              <li>
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">WEBSITES</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="https://nerdping.com/">NERDPING.COM</a>
+                    <a href="https://simplydm.com/">SIMPLYDM.COM</a>
+                  </div>
+                </div>
+              </li>
           </ul>
         </div>
       </div>
