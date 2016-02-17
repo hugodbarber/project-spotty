@@ -40,7 +40,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #bdbdbd;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -52,7 +52,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color:#3498db ;
     text-decoration: none;
     outline: 0;
 }
@@ -110,7 +110,7 @@ a:after {
    Wrap Sections
    ========================================================================== */
 #headerwrap {
-	background: url(../img/emma.png) no-repeat center top;
+	background: url(../img/De_Dust2-.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
